@@ -14,7 +14,7 @@ $(document).ready(function () {
     
     $("h1:contains('Today is a special day !!!')").html("Happy Birthday to you !");
     var nombre = getUrlVars()["nombre"] ? getUrlVars()["nombre"] : 'Amigo(A)';
-    $('.invited').html('<b class="highlighted">' + nombre.toUpperCase() + '</b>' + ' te invot a mi cumple! NO FALTES!');
+    $('.invited').html('<b class="highlighted">' + nombre.toUpperCase() + '</b>' + ' te invito a mi cumple! NO FALTES! este Sabado 6:30pm al frente de la Universidad Autonoma del Peru');
     $('.item').hide();
     $('.blow').show();
     $('.drawing').show();
